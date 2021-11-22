@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(19, 19, 19);
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+
+.body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background: whitesmoke;
+    height: 50px;
+    width: 50px;
+    box-shadow: inset -5px -5px 12px #e2dbdb, 
+                        5px 5px 12px rgba(0, 0, 0, 0.6);
+    border: none;
+    margin: 5px;
+    border-radius: 15px;
+
+}
+
+.numb{
+    background: whitesmoke;
+    padding: 17px;
+    border-radius: 30px;
+    box-shadow: inset 6px 6px 12px #474646,
+                        6px 6px 330px rgba(78, 71, 71, 0.692);
+    display: grid;
+    grid-template-columns: repeat(4, 64px);
+}
+
+#display{
+    grid-column: span 4;
+    height: 50px;
+    width: 250px;
+    background: whitesmoke;
+    box-shadow: inset -5px -5px 12px #e2dbdb,
+                        inset 5px 5px 12px rgba(39, 31, 31, 0.39);
+    border: none;
+    border-radius: 20px;
+    text-align: end;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+
+p{
+    background: rgba(245, 245, 245, 0);
+    width: 250px;
+    text-align: center;
+    outline: none;
+    color: slateblue;
+    font-size: small;
+    
+}
+
+#equal{
+    background: slateblue;
+    color: white;
+}
+
+.button:hover{
+    background-color: rgba(145, 145, 145, 0.623);
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+#equal:hover{
+    background-color:  rgb(42, 20, 168);
+    color: white;
+    transition: 0.4s ease-in-out;
+}

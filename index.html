@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="body">
+        
+        <div class="numb">
+            <p>Hboi-Dev Calculator</p>
+            <input type="text" id="display" placeholder="0">
+            <button class="button" onclick="cancel()">C</button>
+            <button class="button" onclick="key('/')">/</button>
+            <button class="button" onclick="key('*')">*</button>
+            <button class="button" onclick="del()">del</button>
+            <button class="button"onclick="key('7')">7</button>
+            <button class="button" onclick="key('8')">8</button>
+            <button class="button" onclick="key('9')">9</button>
+            <button class="button" onclick="key('-')">-</button>
+            <button class="button" onclick="key('4')">4</button>
+            <button class="button" onclick="key('5')">5</button>
+            <button class="button" onclick="key('6')">6</button>
+            <button class="button" onclick="key('+')">+</button>
+            <button class="button" onclick="key('1')">1</button>
+            <button class="button" onclick="key('2')">2</button>
+            <button class="button" onclick="key('3')">3</button>
+            <button class="button" onclick="key('.')">.</button>
+            <button class="button" onclick="key('(')">(</button>
+            <button class="button" onclick="key('0')">0</button>
+            <button class="button" onclick="key(')')">)</button>
+            <button id="equal" class="button" onclick="cal()">=</button>
+        </div>
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>
